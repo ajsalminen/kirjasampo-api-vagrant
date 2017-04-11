@@ -1,0 +1,14 @@
+[kirjasampo:children]
+kirjasampo-api
+
+[kirjasampo-api]
+api.kirjasampo.local ansible_ssh_host=127.0.0.1 ansible_ssh_port=2222
+
+[lamp-servers]
+api.kirjasampo.local ansible_ssh_host=127.0.0.1 ansible_ssh_port=2222
+
+[servers:children]
+lamp-servers
+
+[vagrant]
+api.kirjasampo.local ansible_ssh_host=127.0.0.1 ansible_ssh_port=2222

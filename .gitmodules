@@ -1,0 +1,4 @@
+[submodule "kifi_playbooks"]
+	path = kifi_playbooks
+	url = git@projektit.kirjastot.fi:kifi_playbooks.git
+	branch = kirjasampo-api
